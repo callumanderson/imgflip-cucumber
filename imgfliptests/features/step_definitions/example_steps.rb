@@ -4,6 +4,6 @@ When /^I navigate to google$/ do
 end
 
 Then /^I should be on the google homepage$/ do
-  LOG.info "Checking browser tite"
+  LOG.info "Checking browser title"
   expect(@browser.title).to eq("Google")
 end

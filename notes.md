@@ -7,6 +7,7 @@ TODOS:
  - Create flexible browser obj [x]
  - Integrate cucumber with browser [x]
   - Add example cucumber test [x]
+- Add logging to framework [ ]
 
 2. Investigate the application under test [ ]
  - spend 1hr investigating the application under test [ ]

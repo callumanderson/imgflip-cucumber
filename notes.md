@@ -5,6 +5,7 @@ TODOS:
  - gems / libraries [x]
  - patterns etc... [x]
  - Create flexible browser obj [x]
+ - Integrate cucumber with browser [ ]
 
 2. Investigate the application under test [ ]
  - spend 1hr investigating the application under test [ ]

@@ -1,10 +1,10 @@
 TODOS:
 
-1. Decide on application architecture [ ]
+1. Decide on application architecture [x]
  - interface [x] `imgflip-cucumber cucumber`
- - gems / libraries [ ]
- - patterns etc... [ ]
- - Create flexible browser obj [ ]
+ - gems / libraries [x]
+ - patterns etc... [x]
+ - Create flexible browser obj [x]
 
 2. Investigate the application under test [ ]
  - spend 1hr investigating the application under test [ ]

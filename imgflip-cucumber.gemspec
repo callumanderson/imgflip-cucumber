@@ -36,5 +36,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "colorize"
   spec.add_runtime_dependency "cucumber"
   spec.add_runtime_dependency "rspec-expectations"
+  spec.add_runtime_dependency "nokogiri"
 
 end

@@ -4,13 +4,12 @@ LOG ||= Imgflip::Log.new(STDOUT)
 LOG.datetime_format = '%Y-%m-%d %X' # simplify time output
 LOG.level = Imgflip::Log::DEBUG
 
-@browser = nil
+cucumber = Imgflip::Cucumber.new({:browser => "chrome"})
 
 Before do |scenario|
-  cucumber = Imgflip::Cucumber.new({:browser => "chrome"})
   @browser = cucumber.browser
 end
 
 After do |scenario|
-  @browser.close
+  cucumber.browser.close
 end
